@@ -1,0 +1,73 @@
+.my-profile-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .basic-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .basic-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .basic-info p {
+    margin: 0;
+    color: #777;
+  }
+  
+  .sell-car-button {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .my-vehicles {
+    flex: 2;
+  }
+  
+  .my-vehicles h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .vehicle-item {
+    text-align: center;
+  }
+  
+  .vehicle-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-item p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  

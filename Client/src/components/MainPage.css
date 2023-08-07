@@ -1,0 +1,46 @@
+.main-page {
+    background-color: #007bff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .header-section {
+    background-color: #007bff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-section h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .sell-button,
+  .buy-button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sell-button:hover,
+  .buy-button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

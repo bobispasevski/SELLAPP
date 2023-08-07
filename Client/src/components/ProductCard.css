@@ -1,0 +1,41 @@
+/* ProductCard.css */
+
+.product-card {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .product-details {
+    padding: 15px;
+  }
+  
+  .product-details h3 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #35b535; /* Change color to green or any other color you prefer */
+  }
+  

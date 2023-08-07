@@ -1,0 +1,36 @@
+.header {
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  .header nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header li {
+    margin: 0 10px;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .header a:hover {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+  }
+  

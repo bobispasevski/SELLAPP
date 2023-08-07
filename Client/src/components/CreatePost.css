@@ -1,0 +1,93 @@
+/* CreatePost.css */
+
+.create-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .category-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .radio-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-options label {
+    margin-right: 10px;
+  }
+  
+  .form-input {
+    margin-bottom: 15px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .picture-upload {
+    margin-bottom: 20px;
+  }
+  
+  .picture-upload input[type='file'] {
+    display: none;
+  }
+  
+  .picture-upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .price-input {
+    margin-bottom: 20px;
+  }
+  
+  .price-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add more custom styles, effects, and theme-specific design here */
+  
