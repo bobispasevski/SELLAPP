@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const controller = require("../controllers/UserController");
 const jwt = require('express-jwt');
-// require('dotenv').config();
+require('dotenv').config();
 
 router
 .post('/register',controller.postUser)

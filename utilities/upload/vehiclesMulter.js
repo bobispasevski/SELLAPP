@@ -13,6 +13,6 @@ const storageVehicles= multer.diskStorage({
         cb(null,fileName);
     }
 })
-const uploadVehiclePic = multer({storage:storageRecipes});
+const uploadVehiclePic = multer({storage:storageVehicles});
 
 module.exports = uploadVehiclePic;
