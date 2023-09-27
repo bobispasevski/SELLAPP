@@ -15,7 +15,7 @@ const vehicleSchema = mongoose.Schema({
   views:{
     type:Number,
     default: 0,
-    required: true
+    required: false
 },
   user:{
     type:mongoose.Types.ObjectId,

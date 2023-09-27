@@ -55,7 +55,7 @@ module.exports = {
     },
     postVehicle: async (req, res) => {
         try {
-            req.body.user = req.user.id;
+            // req.body.user = req.user.id;
             if(req.file){req.body.image = `images/vehicles/${req.file.filename}`}
             else {req.body.image = "/images/vehicles/vehicle.png"};
             let vehicle = await Vehicle.create(req.body)
