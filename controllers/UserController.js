@@ -70,4 +70,25 @@ module.exports = {
             })
         }
     },
+    putLogout: async (req, res) => {
+        try {
+            const payload = {
+                id: req.user.id
+            }
+            token = jwt.sign(payload, process.env.JWT_SECRET, {
+                expiresIn: '1s'
+            })
+            res.send({
+                err: false,
+                message: "User Loged out",
+                token: token
+            });
+        }
+        catch (err) {
+            res.send({
+                err: true,
+                message: err.message
+            })
+        }
+    }
 }

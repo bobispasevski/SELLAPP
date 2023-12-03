@@ -1,0 +1,20 @@
+/* MyVehicle.css */
+
+.vehicle-item {
+    text-align: center;
+  }
+  
+  .vehicle-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-item p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
